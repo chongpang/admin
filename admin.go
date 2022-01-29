@@ -6,8 +6,8 @@ import (
 	"path/filepath"
 	"reflect"
 
-	"github.com/jinzhu/gorm"
-	"github.com/jinzhu/inflection"
+	"gorm.io/gorm"
+	"gorm.io/gorm/inflection"
 	"github.com/qor/assetfs"
 	"github.com/qor/qor"
 	"github.com/qor/qor/resource"
